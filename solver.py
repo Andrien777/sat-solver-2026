@@ -2,6 +2,7 @@ import sys
 from threading import Event
 from utils import SATSolverResult, load_formula, lit_to_dimacs
 
+# New comment for diff
 
 class Solver:
     def __init__(self, filename: str, sigkill: Event):
